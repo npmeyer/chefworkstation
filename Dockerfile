@@ -1,4 +1,4 @@
-FROM chef/chefworkstation:current
+FROM chef/chefworkstation:latest
 ENV CHEF_LICENSE=accept-no-persist
 RUN apt-get update
 RUN apt-get install -y build-essential
